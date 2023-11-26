@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+data:
+  POSTGRES_HOST: "10.0.99.252"
+  POSTGRES_USER: "postgres"
+  POSTGRES_PASS: "bd@123"
+  POSTGRES_DATABASE: "projeto_final_asa"
+  POSTGRES_DRIVERNAME: "postgresql+psycopg2"
+  POSTGRES_PORT: "5432"
